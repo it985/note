@@ -11,6 +11,7 @@ yarn.lock
 
 # vuepress
 docs/.vuepress/dist
-
+.cache
+.temp
 # mac
 .DS_Store
