@@ -1,5 +1,5 @@
 # npm
-package-lock.json
+# package-lock.json
 node_modules
 yarn-error.log
 
@@ -11,6 +11,7 @@ yarn.lock
 
 # vuepress
 docs/.vuepress/dist
-
+.cache
+.temp
 # mac
 .DS_Store
