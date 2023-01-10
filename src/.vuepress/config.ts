@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog"; //提供自动目录页生成
 
 export default defineUserConfig({
   base: "/",
@@ -15,4 +16,12 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
+
+  plugins: [
+
+    //https://vuepress-theme-hope.github.io/v2/auto-catalog/zh/
+    autoCatalogPlugin({
+      //插件选项
+    }),
+  ],
 });

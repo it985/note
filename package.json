@@ -8,12 +8,13 @@
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
-    "docs:update": "npm add @vuepress/client@next vue vuepress@next vuepress-theme-hope@next && npm i && npm up"
+    "docs:update": "npm add @vuepress/client@next vue vuepress@next vuepress-theme-hope@next  vuepress-plugin-auto-catalog@next  && npm i && npm up"
   },
   "devDependencies": {
     "@vuepress/client": "^2.0.0-beta.60",
     "vue": "^3.2.45",
     "vuepress": "^2.0.0-beta.60",
+    "vuepress-plugin-auto-catalog": "^2.0.0-beta.154",
     "vuepress-theme-hope": "^2.0.0-beta.154"
   }
 }
