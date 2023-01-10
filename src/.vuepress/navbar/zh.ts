@@ -1,3 +1,4 @@
+// 导航栏
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
@@ -22,9 +23,9 @@ export const zhNavbar = navbar([
       },
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
-  },
+  // {
+  //   text: "V2 文档",
+  //   icon: "note",
+  //   link: "https://vuepress-theme-hope.github.io/v2/zh/",
+  // },
 ]);
