@@ -225,4 +225,6 @@ export default hopeTheme({
     green: "#3eaf7c",
     orange: "#fb9b5f",
   },
+  // 全屏按钮 https://theme-hope.vuejs.press/zh/guide/interface/others.html#%E5%85%A8%E5%B1%8F%E6%8C%89%E9%92%AE
+  fullscreen: true,
 });
