@@ -8,6 +8,7 @@ import { pwaPlugin } from "vuepress-plugin-pwa2";//渐进式网页应用 (Progre
 import { seoPlugin } from "vuepress-plugin-seo2";//站点的全面 SEO 增强
 import { sitemapPlugin } from "vuepress-plugin-sitemap2"; //VuePress2 的 Sitemap 生成
 import { photoSwipePlugin } from "vuepress-plugin-photo-swipe";//为 VuePress2 提供图片预览支持
+import { searchProPlugin } from "vuepress-plugin-search-pro"; //本地搜索
 export default defineUserConfig({
   base: "/",
 
@@ -63,6 +64,11 @@ export default defineUserConfig({
     // https://plugin-photo-swipe.vuejs.press/zh/
     photoSwipePlugin({
       // 你的选项
+    }),
+
+    // https://plugin-search-pro.vuejs.press/zh/
+    searchProPlugin({
+      // 配置选项
     }),
   ],
 });
