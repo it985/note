@@ -217,4 +217,12 @@ export default hopeTheme({
     //   },
     // },
   },
+
+  // 设置默认主题色 https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html#%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98%E8%89%B2
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
 });
