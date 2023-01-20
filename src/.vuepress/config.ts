@@ -7,6 +7,7 @@ import { copyCodePlugin } from "vuepress-plugin-copy-code2";//为 VuePress2 提�
 import { pwaPlugin } from "vuepress-plugin-pwa2";//渐进式网页应用 (Progressive Web App) 支持
 import { seoPlugin } from "vuepress-plugin-seo2";//站点的全面 SEO 增强
 import { sitemapPlugin } from "vuepress-plugin-sitemap2"; //VuePress2 的 Sitemap 生成
+import { photoSwipePlugin } from "vuepress-plugin-photo-swipe";//为 VuePress2 提供图片预览支持
 export default defineUserConfig({
   base: "/",
 
@@ -58,5 +59,10 @@ export default defineUserConfig({
     // sitemapPlugin({
     //   // 配置选项
     // }),
+    
+    // https://plugin-photo-swipe.vuejs.press/zh/
+    photoSwipePlugin({
+      // 你的选项
+    }),
   ],
 });

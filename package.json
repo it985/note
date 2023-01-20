@@ -8,7 +8,7 @@
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
-    "docs:update": "npm add @vuepress/client@next vuepress-plugin-sitemap2@next vuepress-plugin-seo2@next vuepress-plugin-pwa2@next  vuepress@next vuepress-theme-hope@next  vuepress-plugin-copy-code2@next vuepress-plugin-auto-catalog@next vuepress-plugin-comment2@next vuepress-plugin-components@next && npm i && npm up"
+    "docs:update": "npm add @vuepress/client@next vuepress-plugin-photo-swipe@next vuepress-plugin-sitemap2@next vuepress-plugin-seo2@next vuepress-plugin-pwa2@next  vuepress@next vuepress-theme-hope@next  vuepress-plugin-copy-code2@next vuepress-plugin-auto-catalog@next vuepress-plugin-comment2@next vuepress-plugin-components@next && npm i && npm up"
   },
   "devDependencies": {
     "@vuepress/client": "^2.0.0-beta.60",
@@ -18,6 +18,7 @@
     "vuepress-plugin-comment2": "^2.0.0-beta.165",
     "vuepress-plugin-components": "^2.0.0-beta.165",
     "vuepress-plugin-copy-code2": "^2.0.0-beta.165",
+    "vuepress-plugin-photo-swipe": "^2.0.0-beta.165",
     "vuepress-plugin-pwa2": "^2.0.0-beta.165",
     "vuepress-plugin-seo2": "^2.0.0-beta.165",
     "vuepress-plugin-sitemap2": "^2.0.0-beta.165",
